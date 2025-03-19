@@ -45,6 +45,10 @@ const Footer: React.FC = () => {
                 <a href="https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt" className="text-white/70 hover:text-white transition-colors inline-flex items-center">
                   Real Estate GPT
                 </a>
+                <span className="text-white/40">|</span>
+                <a href="https://chatgpt.com/g/g-67db517cdfe88191a2fe81a1a0fe4e06-real-estate-investor-gpt" className="text-white/70 hover:text-white transition-colors inline-flex items-center">
+                  Real Estate Investor GPT
+                </a>
               </li>
               <li>
                 <a href="#faq" className="text-white/70 hover:text-white transition-colors">
@@ -101,6 +105,12 @@ const Footer: React.FC = () => {
                 className="inline-block py-2 px-3 rounded-full bg-gradient-to-r from-cyberpunk-highlight to-cyberpunk-accent text-white text-xs font-medium hover:shadow-lg hover:shadow-cyberpunk-accent/20 transition-all duration-300 hover:scale-105"
               >
                 Try Real Estate GPT
+              </a>
+              <a 
+                href="https://chatgpt.com/g/g-67db517cdfe88191a2fe81a1a0fe4e06-real-estate-investor-gpt" 
+                className="inline-block py-2 px-3 rounded-full bg-gradient-to-r from-cyberpunk-accent to-cyberpunk-highlight text-white text-xs font-medium hover:shadow-lg hover:shadow-cyberpunk-accent/20 transition-all duration-300 hover:scale-105"
+              >
+                Try Real Estate Investor GPT
               </a>
             </div>
           </div>

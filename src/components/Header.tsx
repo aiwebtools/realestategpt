@@ -28,6 +28,7 @@ const Header: React.FC = () => {
   const navLinks = [
     { name: "Property Data Finder GPT", href: "https://propertydatafindergpt.lovable.app/?via=aiwebtools" },
     { name: "Real Estate GPT", href: "https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt" },
+    { name: "Real Estate Investor GPT", href: "https://chatgpt.com/g/g-67db517cdfe88191a2fe81a1a0fe4e06-real-estate-investor-gpt" },
     { name: "FAQ", href: "#faq" },
     { name: "Disclaimer", href: "#disclaimer" },
     { name: "More AI Tools", href: "https://www.aiwebtools.ai", highlight: true },
