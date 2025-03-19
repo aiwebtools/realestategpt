@@ -44,8 +44,8 @@ const Hero: React.FC = () => {
               >
                 Try Real Estate GPT
               </a>
-              <a href="#features" className="btn-outline">
-                Explore Features
+              <a href="https://propertydatafindergpt.lovable.app/?via=aiwebtools" className="btn-outline">
+                Property Data Finder GPT
               </a>
             </div>
             
