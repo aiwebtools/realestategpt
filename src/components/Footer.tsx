@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#features" className="text-white/70 hover:text-white transition-colors">
-                  Our Features
+                  Key Features
                 </a>
               </li>
               <li>
