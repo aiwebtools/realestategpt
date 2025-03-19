@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h3 className="text-base font-semibold mb-3 text-white">Quick Links</h3>
+            <h3 className="text-base font-semibold mb-3 text-white">Choose Your AI Tool</h3>
             <ul className="space-y-2 text-sm">
               <li className="flex flex-wrap gap-2">
                 <a href="https://propertydatafindergpt.lovable.app/?via=aiwebtools" className="text-white/70 hover:text-white transition-colors inline-flex items-center">
@@ -94,13 +94,13 @@ const Footer: React.FC = () => {
                 href="https://propertydatafindergpt.lovable.app/?via=aiwebtools" 
                 className="inline-block py-2 px-3 rounded-full bg-gradient-to-r from-cyberpunk-accent to-cyberpunk-highlight text-white text-xs font-medium hover:shadow-lg hover:shadow-cyberpunk-accent/20 transition-all duration-300 hover:scale-105"
               >
-                Property Data Finder GPT
+                Try Property Data Finder
               </a>
               <a 
                 href="https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt" 
                 className="inline-block py-2 px-3 rounded-full bg-gradient-to-r from-cyberpunk-highlight to-cyberpunk-accent text-white text-xs font-medium hover:shadow-lg hover:shadow-cyberpunk-accent/20 transition-all duration-300 hover:scale-105"
               >
-                Real Estate GPT
+                Try Real Estate GPT
               </a>
             </div>
           </div>
