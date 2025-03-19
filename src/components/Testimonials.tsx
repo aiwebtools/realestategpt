@@ -18,7 +18,7 @@ const Testimonials: React.FC = () => {
       name: "David Chen",
       role: "First-time Homebuyer",
       content: "As someone new to real estate, this tool was invaluable. It gave me clear property valuations and mortgage options that matched my budget. The neighborhood insights helped me feel confident about my purchase decision.",
-      rating: 5,
+      rating: 4,
       delay: 100,
       avatar: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=150&h=150&q=80",
     },
