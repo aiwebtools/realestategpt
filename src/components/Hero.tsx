@@ -49,7 +49,11 @@ const Hero: React.FC = () => {
               </a>
             </div>
             
-            <p className="text-xs text-white/50 mt-6 animate-fade-in animate-delay-400">
+            <p className="text-sm font-medium text-cyberpunk-accent mt-4 animate-fade-in animate-delay-350">
+              Actively used by 1000+ real estate professionals
+            </p>
+            
+            <p className="text-xs text-white/50 mt-2 animate-fade-in animate-delay-400">
               Powered by advanced AI to deliver precise property valuations and insights
             </p>
           </div>
