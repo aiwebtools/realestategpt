@@ -4,9 +4,9 @@ import { Building, Phone, Mail } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-cyberpunk-darker pt-12 pb-6">
+    <footer className="bg-cyberpunk-darker pt-8 pb-6">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="relative w-8 h-8 flex items-center justify-center neo-blur rounded-lg overflow-hidden">
@@ -35,15 +35,14 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h3 className="text-base font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-base font-semibold mb-3 text-white">Quick Links</h3>
             <ul className="space-y-2 text-sm">
-              <li>
-                <a href="https://propertydatafindergpt.lovable.app/?via=aiwebtools" className="text-white/70 hover:text-white transition-colors">
+              <li className="flex flex-wrap gap-2">
+                <a href="https://propertydatafindergpt.lovable.app/?via=aiwebtools" className="text-white/70 hover:text-white transition-colors inline-flex items-center">
                   Property Data Finder GPT
                 </a>
-              </li>
-              <li>
-                <a href="https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt" className="text-white/70 hover:text-white transition-colors">
+                <span className="text-white/40">|</span>
+                <a href="https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt" className="text-white/70 hover:text-white transition-colors inline-flex items-center">
                   Real Estate GPT
                 </a>
               </li>
@@ -66,7 +65,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h3 className="text-base font-semibold mb-4">Resources</h3>
+            <h3 className="text-base font-semibold mb-3 text-white">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="#features" className="text-white/70 hover:text-white transition-colors">
@@ -90,18 +89,24 @@ const Footer: React.FC = () => {
               </li>
             </ul>
             
-            <div className="mt-4">
+            <div className="mt-4 flex flex-wrap gap-2">
               <a 
-                href="https://www.aiwebtools.ai" 
-                className="inline-block py-2 px-5 rounded-full bg-gradient-to-r from-cyberpunk-accent to-cyberpunk-highlight text-white text-sm font-medium hover:shadow-lg hover:shadow-cyberpunk-accent/20 transition-all duration-300 hover:scale-105"
+                href="https://propertydatafindergpt.lovable.app/?via=aiwebtools" 
+                className="inline-block py-2 px-3 rounded-full bg-gradient-to-r from-cyberpunk-accent to-cyberpunk-highlight text-white text-xs font-medium hover:shadow-lg hover:shadow-cyberpunk-accent/20 transition-all duration-300 hover:scale-105"
               >
-                More AI Tools
+                Property Data Finder GPT
+              </a>
+              <a 
+                href="https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt" 
+                className="inline-block py-2 px-3 rounded-full bg-gradient-to-r from-cyberpunk-highlight to-cyberpunk-accent text-white text-xs font-medium hover:shadow-lg hover:shadow-cyberpunk-accent/20 transition-all duration-300 hover:scale-105"
+              >
+                Real Estate GPT
               </a>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row justify-between items-center">
+        <div className="border-t border-white/10 pt-4 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-white/60 text-xs mb-3 sm:mb-0">
             © 2025 <a href="https://www.aiwebtools.ai" className="hover:text-white transition-colors">AI WEB TOOLS LLC</a> All rights reserved.
           </p>
