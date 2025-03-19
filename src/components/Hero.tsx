@@ -1,6 +1,9 @@
+
 import React, { useEffect, useRef } from "react";
-import { Building, ChevronDown } from "lucide-react";
+import { Building, ChevronDown, ExternalLink } from "lucide-react";
 import ThreeDElement from "./ThreeDElement";
+import { Button } from "./ui/button";
+
 const Hero: React.FC = () => {
   const videoRef = useRef<HTMLIFrameElement>(null);
   useEffect(() => {
@@ -60,11 +63,28 @@ const Hero: React.FC = () => {
           </div>
         </div>
         
-        <div className="flex justify-center mt-16 animate-fade-in animate-delay-500">
-          <a href="#features" className="flex flex-col items-center text-white/80 hover:text-white transition-colors">
-            <span className="text-sm mb-2">Empowering Real Estate Professionals with Ai</span>
+        <div className="flex flex-col items-center mt-16 animate-fade-in animate-delay-500">
+          <a href="#features" className="flex flex-col items-center text-white/80 hover:text-white transition-colors mb-8">
+            <span className="text-sm mb-2">Empowering Real Estate Professionals with AI</span>
             <ChevronDown className="w-5 h-5 animate-bounce" />
           </a>
+          
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
+            <Button 
+              className="group bg-gradient-to-r from-cyberpunk-accent to-cyberpunk-highlight hover:shadow-lg hover:shadow-cyberpunk-accent/25 hover:scale-105 transition-all duration-300"
+              onClick={() => window.open("https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt", "_blank")}
+            >
+              Try Real Estate GPT <ExternalLink className="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            </Button>
+            
+            <Button 
+              variant="outline" 
+              className="group border-cyberpunk-accent/30 hover:bg-cyberpunk-accent/10 hover:border-cyberpunk-accent transition-all duration-300"
+              onClick={() => window.open("https://propertydatafindergpt.lovable.app/?via=aiwebtools", "_blank")}
+            >
+              Try Property Data Finder <ExternalLink className="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            </Button>
+          </div>
         </div>
       </div>
     </section>;
