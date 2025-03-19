@@ -1,17 +1,23 @@
 
 import React, { useEffect, useRef } from "react";
-import { Building, ChevronDown, ExternalLink } from "lucide-react";
+import { ChevronDown, ExternalLink } from "lucide-react";
 import ThreeDElement from "./ThreeDElement";
 import { Button } from "./ui/button";
 
 const Hero: React.FC = () => {
   const videoRef = useRef<HTMLIFrameElement>(null);
+  
   useEffect(() => {
-    // Set up YouTube iframe with autoplay parameters
+    // Set up YouTube iframe with optimized parameters for faster loading
     if (videoRef.current) {
-      videoRef.current.src = "https://www.youtube.com/embed/0ZGBGn9yYwY?autoplay=1&mute=0&controls=1&showinfo=0&rel=0&modestbranding=1&playsinline=1&enablejsapi=1&origin=window.location.origin&widgetid=1&hd=1";
+      // Add async loading attribute
+      videoRef.current.loading = "lazy";
+      
+      // Use a lightweight version of the embed URL with essential parameters only
+      videoRef.current.src = "https://www.youtube.com/embed/0ZGBGn9yYwY?autoplay=1&mute=0&controls=1&rel=0&modestbranding=1&playsinline=1";
     }
   }, []);
+  
   return <section className="relative overflow-hidden pt-32 pb-24 md:pt-40 md:pb-32">
       {/* Background gradient elements */}
       <div className="absolute top-0 left-1/4 w-1/2 h-1/2 bg-cyberpunk-accent/20 rounded-full filter blur-[120px] opacity-30"></div>
@@ -57,7 +63,15 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="absolute inset-0 -left-4 -top-4 -right-4 -bottom-4 bg-gradient-to-br from-cyberpunk-accent/30 to-cyberpunk-highlight/30 rounded-2xl blur-2xl"></div>
               <div className="glass-panel rounded-2xl relative overflow-hidden aspect-video shadow-2xl border border-white/20">
-                <iframe ref={videoRef} id="youtube-player" title="Real Estate GPT Demo" className="w-full h-full" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                <iframe 
+                  ref={videoRef}
+                  id="youtube-player"
+                  title="Real Estate GPT Demo"
+                  className="w-full h-full"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
           </div>
