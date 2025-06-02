@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="https://aiwebtools.ai/terms-of-services" className="text-white/70 hover:text-white transition-colors">
+                <a href="https://aiwebtools.lovable.app/disclaimers" className="text-white/70 hover:text-white transition-colors">
                   Terms of Service
                 </a>
               </li>
@@ -116,17 +116,24 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="border-t border-white/10 pt-4 flex flex-col sm:flex-row justify-between items-center">
-          <p className="text-white/60 text-xs mb-3 sm:mb-0">
-            © 2025 <a href="https://www.aiwebtools.ai" className="hover:text-white transition-colors">AI WEB TOOLS LLC</a> All rights reserved.
-          </p>
-          <div className="flex gap-4">
-            <a href="https://openai.com/policies/privacy-policy/" className="text-white/60 text-xs hover:text-white transition-colors">
-              Privacy Policy
-            </a>
-            <a href="https://aiwebtools.ai/terms-of-services" className="text-white/60 text-xs hover:text-white transition-colors">
-              Terms of Service
-            </a>
+        <div className="border-t border-white/10 pt-4">
+          <div className="text-center mb-3">
+            <p className="text-white/60 text-sm">
+              For informational, educational, and research purposes only.
+            </p>
+          </div>
+          <div className="flex flex-col sm:flex-row justify-between items-center">
+            <p className="text-white/60 text-xs mb-3 sm:mb-0">
+              © 2025 <a href="https://www.aiwebtools.ai" className="hover:text-white transition-colors">AI WEB TOOLS LLC</a> All rights reserved.
+            </p>
+            <div className="flex gap-4">
+              <a href="https://openai.com/policies/privacy-policy/" className="text-white/60 text-xs hover:text-white transition-colors">
+                Privacy Policy
+              </a>
+              <a href="https://aiwebtools.lovable.app/disclaimers" className="text-white/60 text-xs hover:text-white transition-colors">
+                Terms of Service
+              </a>
+            </div>
           </div>
         </div>
       </div>
