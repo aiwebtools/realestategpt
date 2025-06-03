@@ -38,15 +38,15 @@ const Footer: React.FC = () => {
             <h3 className="text-base font-semibold mb-3 text-white">Choose Your AI Tool</h3>
             <ul className="space-y-2 text-sm">
               <li className="flex flex-wrap gap-2">
-                <a href="https://propertydatafindergpt.lovable.app/?via=aiwebtools" className="text-white/70 hover:text-white transition-colors inline-flex items-center">
+                <a href="https://propertydatafindergpt.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors inline-flex items-center">
                   Property Data Finder GPT
                 </a>
                 <span className="text-white/40">|</span>
-                <a href="https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt" className="text-white/70 hover:text-white transition-colors inline-flex items-center">
+                <a href="https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors inline-flex items-center">
                   Real Estate GPT
                 </a>
                 <span className="text-white/40">|</span>
-                <a href="https://chatgpt.com/g/g-67db517cdfe88191a2fe81a1a0fe4e06-real-estate-investor-gpt" className="text-white/70 hover:text-white transition-colors inline-flex items-center">
+                <a href="https://chatgpt.com/g/g-67db517cdfe88191a2fe81a1a0fe4e06-real-estate-investor-gpt" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors inline-flex items-center">
                   Real Estate Investor GPT
                 </a>
               </li>
@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.aiwebtools.ai" className="text-white/70 hover:text-white transition-colors">
+                <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors">
                   More AI Tools
                 </a>
               </li>
@@ -77,12 +77,12 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="https://openai.com/policies/privacy-policy/" className="text-white/70 hover:text-white transition-colors">
+                <a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="https://aiwebtools.lovable.app/disclaimers" className="text-white/70 hover:text-white transition-colors">
+                <a href="https://aiwebtools.lovable.app/disclaimers" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors">
                   Terms of Service
                 </a>
               </li>
@@ -96,18 +96,24 @@ const Footer: React.FC = () => {
             <div className="mt-4 flex flex-wrap gap-2">
               <a 
                 href="https://propertydatafindergpt.lovable.app/?via=aiwebtools" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="inline-block py-2 px-3 rounded-full bg-gradient-to-r from-cyberpunk-accent to-cyberpunk-highlight text-white text-xs font-medium hover:shadow-lg hover:shadow-cyberpunk-accent/20 transition-all duration-300 hover:scale-105"
               >
                 Try Property Data Finder
               </a>
               <a 
                 href="https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="inline-block py-2 px-3 rounded-full bg-gradient-to-r from-cyberpunk-highlight to-cyberpunk-accent text-white text-xs font-medium hover:shadow-lg hover:shadow-cyberpunk-accent/20 transition-all duration-300 hover:scale-105"
               >
                 Try Real Estate GPT
               </a>
               <a 
                 href="https://chatgpt.com/g/g-67db517cdfe88191a2fe81a1a0fe4e06-real-estate-investor-gpt" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="inline-block py-2 px-3 rounded-full bg-gradient-to-r from-cyberpunk-accent to-cyberpunk-highlight text-white text-xs font-medium hover:shadow-lg hover:shadow-cyberpunk-accent/20 transition-all duration-300 hover:scale-105"
               >
                 Try Real Estate Investor GPT
@@ -124,13 +130,13 @@ const Footer: React.FC = () => {
           </div>
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <p className="text-white/60 text-xs mb-3 sm:mb-0">
-              © 2025 <a href="https://www.aiwebtools.ai" className="hover:text-white transition-colors">AI WEB TOOLS LLC</a> All rights reserved.
+              © 2025 <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">AI WEB TOOLS LLC</a> All rights reserved.
             </p>
             <div className="flex gap-4">
-              <a href="https://openai.com/policies/privacy-policy/" className="text-white/60 text-xs hover:text-white transition-colors">
+              <a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-white/60 text-xs hover:text-white transition-colors">
                 Privacy Policy
               </a>
-              <a href="https://aiwebtools.lovable.app/disclaimers" className="text-white/60 text-xs hover:text-white transition-colors">
+              <a href="https://aiwebtools.lovable.app/disclaimers" target="_blank" rel="noopener noreferrer" className="text-white/60 text-xs hover:text-white transition-colors">
                 Terms of Service
               </a>
             </div>

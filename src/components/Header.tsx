@@ -26,12 +26,12 @@ const Header: React.FC = () => {
   };
 
   const navLinks = [
-    { name: "Property Data Finder GPT", href: "https://propertydatafindergpt.lovable.app/?via=aiwebtools" },
-    { name: "Real Estate GPT", href: "https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt" },
-    { name: "Real Estate Investor GPT", href: "https://chatgpt.com/g/g-67db517cdfe88191a2fe81a1a0fe4e06-real-estate-investor-gpt" },
-    { name: "FAQ", href: "#faq" },
-    { name: "Disclaimer", href: "#disclaimer" },
-    { name: "More AI Tools", href: "https://www.aiwebtools.ai", highlight: true },
+    { name: "Property Data Finder GPT", href: "https://propertydatafindergpt.lovable.app/?via=aiwebtools", external: true },
+    { name: "Real Estate GPT", href: "https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt", external: true },
+    { name: "Real Estate Investor GPT", href: "https://chatgpt.com/g/g-67db517cdfe88191a2fe81a1a0fe4e06-real-estate-investor-gpt", external: true },
+    { name: "FAQ", href: "#faq", external: false },
+    { name: "Disclaimer", href: "#disclaimer", external: false },
+    { name: "More AI Tools", href: "https://www.aiwebtools.ai", highlight: true, external: true },
   ];
 
   return (
@@ -60,6 +60,8 @@ const Header: React.FC = () => {
             <a
               key={link.name}
               href={link.href}
+              target={link.external ? "_blank" : undefined}
+              rel={link.external ? "noopener noreferrer" : undefined}
               className={`px-3 py-2 rounded-md transition-all duration-300 text-sm font-medium ${
                 link.highlight
                   ? "bg-gradient-to-r from-cyberpunk-accent to-cyberpunk-highlight text-white hover:shadow-lg hover:shadow-cyberpunk-accent/20"
@@ -91,6 +93,8 @@ const Header: React.FC = () => {
             <a
               key={link.name}
               href={link.href}
+              target={link.external ? "_blank" : undefined}
+              rel={link.external ? "noopener noreferrer" : undefined}
               className={`px-4 py-3 rounded-md transition-all duration-300 text-base font-medium ${
                 link.highlight
                   ? "bg-gradient-to-r from-cyberpunk-accent to-cyberpunk-highlight text-white hover:shadow-lg hover:shadow-cyberpunk-accent/20"

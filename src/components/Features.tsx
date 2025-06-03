@@ -76,10 +76,10 @@ const Features: React.FC = () => {
 
         <ScrollReveal delay={300}>
           <div className="mt-16 text-center flex flex-wrap justify-center gap-4">
-            <a href="https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt" className="btn-cyberpunk">
+            <a href="https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt" target="_blank" rel="noopener noreferrer" className="btn-cyberpunk">
               Start Free Property Analysis
             </a>
-            <a href="https://propertydatafindergpt.lovable.app/?via=aiwebtools" className="btn-outline">
+            <a href="https://propertydatafindergpt.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="btn-outline">
               Access Property Data Tools
             </a>
           </div>

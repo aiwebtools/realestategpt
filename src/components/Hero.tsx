@@ -46,10 +46,10 @@ const Hero: React.FC = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in animate-delay-300">
-              <a href="https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt" className="btn-cyberpunk">
+              <a href="https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt" target="_blank" rel="noopener noreferrer" className="btn-cyberpunk">
                 Get Free Property Analysis
               </a>
-              <a href="https://propertydatafindergpt.lovable.app/?via=aiwebtools" className="btn-outline">
+              <a href="https://propertydatafindergpt.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="btn-outline">
                 Try Property Data Finder
               </a>
             </div>
@@ -95,7 +95,7 @@ const Hero: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
             <Button 
               className="group bg-gradient-to-r from-cyberpunk-accent to-cyberpunk-highlight hover:shadow-lg hover:shadow-cyberpunk-accent/25 hover:scale-105 transition-all duration-300"
-              onClick={() => window.open("https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt", "_blank")}
+              onClick={() => window.open("https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt", "_blank", "noopener,noreferrer")}
             >
               Start Free Property Analysis <ExternalLink className="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
@@ -103,7 +103,7 @@ const Hero: React.FC = () => {
             <Button 
               variant="outline" 
               className="group border-cyberpunk-accent/30 hover:bg-cyberpunk-accent/10 hover:border-cyberpunk-accent transition-all duration-300"
-              onClick={() => window.open("https://propertydatafindergpt.lovable.app/?via=aiwebtools", "_blank")}
+              onClick={() => window.open("https://propertydatafindergpt.lovable.app/?via=aiwebtools", "_blank", "noopener,noreferrer")}
             >
               Property Data Finder <ExternalLink className="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
