@@ -27,35 +27,44 @@ const Hero: React.FC = () => {
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="w-full lg:w-1/2 text-center lg:text-left">
             <div className="inline-block animate-fade-in">
-              <span className="chip mb-4">AI-Powered Real Estate Intelligence</span>
+              <span className="chip mb-4">AI-Powered Real Estate Intelligence 2025</span>
             </div>
             
             <h1 className="heading-xl animate-fade-in mb-6">
-              <span className="text-gradient">Intelligent</span> Real Estate
-              <br />Analysis & Insights
+              <span className="text-gradient">Free AI Real Estate</span> Property Analysis
+              <br />& Market Valuation Tool
             </h1>
             
+            <h2 className="text-lg text-white/90 mb-4 animate-fade-in animate-delay-100 font-medium">
+              Get Instant Property Valuations, Investment Analysis & Market Insights
+            </h2>
+            
             <p className="text-lg text-white/80 mb-8 animate-fade-in animate-delay-200">
-              RealEstateGPT provides detailed, data-driven, and actionable property intelligence
-              for accurate valuation, mortgage analysis, rental management, and
-              commercial real estate investments.
+              Real Estate GPT provides detailed, data-driven property intelligence for accurate valuation, 
+              mortgage analysis, rental management, and commercial real estate investments. Used by 1000+ 
+              real estate professionals for smarter property decisions.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in animate-delay-300">
               <a href="https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt" className="btn-cyberpunk">
-                Choose Real Estate GPT
+                Get Free Property Analysis
               </a>
               <a href="https://propertydatafindergpt.lovable.app/?via=aiwebtools" className="btn-outline">
-                Choose Property Data Finder
+                Try Property Data Finder
               </a>
             </div>
             
-            <p className="text-sm font-medium text-cyberpunk-accent mt-4 animate-fade-in animate-delay-350">
-              Actively used by 1000+ real estate professionals
-            </p>
+            <div className="mt-6 animate-fade-in animate-delay-350">
+              <p className="text-sm font-medium text-cyberpunk-accent mb-2">
+                ✓ Trusted by 1000+ Real Estate Professionals
+              </p>
+              <p className="text-sm text-white/70">
+                ✓ Instant Property Valuations ✓ Market Analysis ✓ Investment ROI Calculator
+              </p>
+            </div>
             
-            <p className="text-xs text-white/50 mt-2 animate-fade-in animate-delay-400">
-              Powered by advanced AI to deliver precise property valuations and insights
+            <p className="text-xs text-white/50 mt-4 animate-fade-in animate-delay-400">
+              Advanced AI technology for precise property valuations and market insights
             </p>
           </div>
           
@@ -66,7 +75,7 @@ const Hero: React.FC = () => {
                 <iframe 
                   ref={videoRef}
                   id="youtube-player"
-                  title="Real Estate GPT Demo"
+                  title="Real Estate GPT Demo - AI Property Analysis Tool"
                   className="w-full h-full"
                   loading="lazy"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -79,7 +88,7 @@ const Hero: React.FC = () => {
         
         <div className="flex flex-col items-center mt-16 animate-fade-in animate-delay-500">
           <a href="#features" className="flex flex-col items-center text-white/80 hover:text-white transition-colors mb-8">
-            <span className="text-sm mb-2">Empowering Real Estate Professionals with AI</span>
+            <span className="text-sm mb-2">Discover AI-Powered Real Estate Features</span>
             <ChevronDown className="w-5 h-5 animate-bounce" />
           </a>
           
@@ -88,7 +97,7 @@ const Hero: React.FC = () => {
               className="group bg-gradient-to-r from-cyberpunk-accent to-cyberpunk-highlight hover:shadow-lg hover:shadow-cyberpunk-accent/25 hover:scale-105 transition-all duration-300"
               onClick={() => window.open("https://chatgpt.com/g/g-67dafd3c6df481918ae17cdd004a4ba3-real-estate-gpt", "_blank")}
             >
-              Try Real Estate GPT <ExternalLink className="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              Start Free Property Analysis <ExternalLink className="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
             
             <Button 
@@ -96,7 +105,7 @@ const Hero: React.FC = () => {
               className="group border-cyberpunk-accent/30 hover:bg-cyberpunk-accent/10 hover:border-cyberpunk-accent transition-all duration-300"
               onClick={() => window.open("https://propertydatafindergpt.lovable.app/?via=aiwebtools", "_blank")}
             >
-              Try Property Data Finder <ExternalLink className="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              Property Data Finder <ExternalLink className="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
         </div>
