@@ -130,7 +130,7 @@ const Footer: React.FC = () => {
           </div>
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <p className="text-white/60 text-xs mb-3 sm:mb-0">
-              © 2025 <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">AI WEB TOOLS LLC</a> All rights reserved.
+              © 2025 <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">AI WEB TOOLS LLC</a> All rights reserved.
             </p>
             <div className="flex gap-4">
               <a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-white/60 text-xs hover:text-white transition-colors">
