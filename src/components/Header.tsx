@@ -31,7 +31,7 @@ const Header: React.FC = () => {
     { name: "Real Estate Investor GPT", href: "https://chatgpt.com/g/g-67db517cdfe88191a2fe81a1a0fe4e06-real-estate-investor-gpt", external: true },
     { name: "FAQ", href: "#faq", external: false },
     { name: "Disclaimer", href: "#disclaimer", external: false },
-    { name: "More AI Tools", href: "https://www.aiwebtools.ai", highlight: true, external: true },
+    { name: "More AI Tools", href: "https://aiwebtools.lovable.app/?via=aiwebtools", highlight: true, external: true },
   ];
 
   return (
@@ -84,8 +84,8 @@ const Header: React.FC = () => {
 
       {/* Mobile Navigation */}
       <div
-        className={`fixed inset-0 bg-cyberpunk-darker/95 backdrop-blur-lg z-40 transition-all duration-300 md:hidden ${
-          isMenuOpen ? "opacity-100 top-16" : "opacity-0 -top-full pointer-events-none"
+        className={`fixed left-0 right-0 bottom-0 bg-cyberpunk-darker/95 backdrop-blur-lg z-40 transition-all duration-200 ease-out md:hidden overflow-y-auto ${
+          isMenuOpen ? "opacity-100 top-[60px]" : "opacity-0 top-full pointer-events-none"
         }`}
       >
         <div className="container mx-auto px-4 sm:px-6 pt-8 flex flex-col gap-4">
