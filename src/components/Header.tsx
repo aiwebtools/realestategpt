@@ -31,7 +31,7 @@ const Header: React.FC = () => {
     { name: "Real Estate Investor GPT", href: "https://chatgpt.com/g/g-67db517cdfe88191a2fe81a1a0fe4e06-real-estate-investor-gpt", external: true },
     { name: "FAQ", href: "#faq", external: false },
     { name: "Disclaimer", href: "#disclaimer", external: false },
-    { name: "More AI Tools", href: "https://www.aiwebtools.ai", highlight: true, external: true },
+    { name: "More AI Tools", href: "https://aiwebtools.lovable.app/?via=aiwebtools", highlight: true, external: true },
   ];
 
   return (
